@@ -23,11 +23,13 @@ public class Main {
 
 //    ライブラリへ書籍を追加
     Book book4 = new Book("NARUTO 72巻", "岸本斉史", 4);
+    Book book5 = new Book("NARUTO 71巻", "岸本斉史", 5);
     library1.setNewBook(book4);
+    library1.setNewBook(book5);
 
 //    ライブラリ検索機能
     library1.searchTitle("お金");
-    library1.searchAuthor("ミック");
+    library1.searchAuthor("岸本");
     library1.searchNumber(4);
   }
 }
